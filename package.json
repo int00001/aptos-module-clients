@@ -9,7 +9,8 @@
     "msg:set": "ts-node -r tsconfig-paths/register build/save-message/set.js",
     "msg:get": "ts-node -r tsconfig-paths/register build/save-message/get.js",
     "todo:init": "ts-node -r tsconfig-paths/register build/to-do-list/create.js",
-    "todo:add": "ts-node -r tsconfig-paths/register build/to-do-list/addTask.js"
+    "todo:add": "ts-node -r tsconfig-paths/register build/to-do-list/addTask.js",
+    "todo:comp": "ts-node -r tsconfig-paths/register build/to-do-list/completeTask.js"
   },
   "author": "int",
   "license": "LicenseRef-LICENSE",
