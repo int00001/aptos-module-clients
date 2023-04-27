@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register build/index.js",
     "build": "tsc -p tsconfig.json",
-    "transfer": "ts-node -r tsconfig-paths/register build/transfer.js"
+    "msg:set": "ts-node -r tsconfig-paths/register build/save-message/set.js"
   },
   "author": "int",
   "license": "LicenseRef-LICENSE",
