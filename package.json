@@ -7,7 +7,8 @@
     "start": "ts-node -r tsconfig-paths/register build/index.js",
     "build": "tsc -p tsconfig.json",
     "msg:set": "ts-node -r tsconfig-paths/register build/save-message/set.js",
-    "msg:get": "ts-node -r tsconfig-paths/register build/save-message/get.js"
+    "msg:get": "ts-node -r tsconfig-paths/register build/save-message/get.js",
+    "todo:init": "ts-node -r tsconfig-paths/register build/to-do-list/create.js"
   },
   "author": "int",
   "license": "LicenseRef-LICENSE",
