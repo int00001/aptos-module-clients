@@ -11,7 +11,8 @@
     "todo:init": "ts-node -r tsconfig-paths/register build/to-do-list/create.js",
     "todo:add": "ts-node -r tsconfig-paths/register build/to-do-list/addTask.js",
     "todo:comp": "ts-node -r tsconfig-paths/register build/to-do-list/completeTask.js",
-    "todo:get": "ts-node -r tsconfig-paths/register build/to-do-list/get.js"
+    "todo:get": "ts-node -r tsconfig-paths/register build/to-do-list/get.js",
+    "mb:init": "ts-node -r tsconfig-paths/register build/message-board/init.js"
   },
   "author": "int",
   "license": "LicenseRef-LICENSE",
